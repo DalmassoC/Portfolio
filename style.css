@@ -45,6 +45,8 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header.sticky {
@@ -92,7 +94,7 @@ section {
     padding: 7.0rem 10% 0;
 }
 .home-img img{
-    width: 35vw;
+    width: 25vw;
     max-width: 45.0rem;
     margin-right: -2.0rem;
     animation: floatImage 4s ease-in-out infinite;
@@ -444,6 +446,11 @@ animation-delay: calc(.2s * var(--i));
         display: block;
     }
 
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+
     .navbar {
         position: absolute;
         top: 100%;
@@ -476,6 +483,7 @@ animation-delay: calc(.2s * var(--i));
         font-size: 5rem;
     }
     .home-img img {
+        display: none;
         width: 70vw;
         margin-top: 4rem;
     }
@@ -515,6 +523,7 @@ animation-delay: calc(.2s * var(--i));
 @media (max-width: 365px) {
     .home-img img {
         width: 90vw;
+        display: none;
     }
     .about-img img {
         width: 90vw;
