@@ -45,6 +45,11 @@ window.onscroll=()=>{
 
 };
 
+// Contact me
+
+function ContactMe(e) {
+    window.location.href = "mailto:dalmassoc29@gmail.com?Subject=Me%20gustaria%20contactar%20contigo.";
+}
 
 /*============== Scroll Reveal ==============*/
 
