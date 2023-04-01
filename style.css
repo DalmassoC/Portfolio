@@ -197,8 +197,8 @@ animation-delay: calc(.2s * var(--i));
 }
 
 .about-img img {
-    height: 40vw;
-    width: 24vw;
+    
+    width: 20vw;
     box-shadow: -10px 10px 10px rgb(237, 124, 64);
     border-radius: 3rem;
 }
